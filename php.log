@@ -1,0 +1,105 @@
+<?php
+
+$array = array(
+	[0] => array(
+		[0] => '吉田',
+		[1] => 25,
+	),
+	[1] => array(
+		[0] => '山田',
+		[1] => 32,		
+	),
+	[2] => array(
+		[0] => '鈴木',
+		[1] => 16,		
+	)
+);
+
+?>[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：「　ホーム画面　
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：セッションID：bq37voks2sefecsbbdkbae3i24
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1576488416
+    [login_limit] => 3600
+    [user_id] => 14
+    [msg_success] => 
+)
+
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：現在日時のタイムスタンプ：1576557047
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：ログイン期限日時のタイムスタンプ：1576492016
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：ログイン済みユーザーです
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：ログイン有効期限を超えています
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：マイチェックリストに登録済みの情報を取得します
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：ユーザーID：14
+[17-Dec-2019 13:30:47 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：特定のチェックリストシート情報を取得します
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：シートID：
+[17-Dec-2019 13:30:47 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：登録済みのシート数を取得します
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：ユーザーID：14
+[17-Dec-2019 13:30:47 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：特定のチェックリストシート情報：
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：登録済みチェックリストシート情報：
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：登録済みシートの枚数：
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：「　ログインページ　
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：セッションID：fl580c6hhe9u6m63l80caj0r3q
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：現在日時のタイムスタンプ：1576557047
+[17-Dec-2019 13:30:47 Asia/Tokyo] デバッグ：ログインしていません
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：「　ホーム画面　
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：セッションID：bd2rg23qh3ihvh27fkhlocddqu
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：現在日時のタイムスタンプ：1578304129
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：ログインしていません
+[06-Jan-2020 18:48:49 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/iza/index.php on line 17
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：マイチェックリストに登録済みの情報を取得します
+[06-Jan-2020 18:48:49 Asia/Tokyo] デバッグ：ユーザーID：
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：「　ホーム画面　
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：セッションID：6cd4bbvp9n7sccp7rggef4pcku
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：現在日時のタイムスタンプ：1578304132
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：ログインしていません
+[06-Jan-2020 18:48:52 Asia/Tokyo] PHP Notice:  Undefined index: user_id in /Applications/MAMP/htdocs/iza/index.php on line 17
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：マイチェックリストに登録済みの情報を取得します
+[06-Jan-2020 18:48:52 Asia/Tokyo] デバッグ：ユーザーID：
+[06-Jan-2020 18:49:19 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] Operation timed out
+[06-Jan-2020 18:49:19 Asia/Tokyo] デバッグ：特定のチェックリストシート情報を取得します
+[06-Jan-2020 18:49:19 Asia/Tokyo] デバッグ：シートID：
+[06-Jan-2020 18:49:22 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] Operation timed out
+[06-Jan-2020 18:49:22 Asia/Tokyo] デバッグ：特定のチェックリストシート情報を取得します
+[06-Jan-2020 18:49:22 Asia/Tokyo] デバッグ：シートID：
+[06-Jan-2020 18:49:49 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] Operation timed out
+[06-Jan-2020 18:49:49 Asia/Tokyo] デバッグ：登録済みのシート数を取得します
+[06-Jan-2020 18:49:49 Asia/Tokyo] デバッグ：ユーザーID：
+[06-Jan-2020 18:49:52 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] Operation timed out
+[06-Jan-2020 18:49:52 Asia/Tokyo] デバッグ：登録済みのシート数を取得します
+[06-Jan-2020 18:49:52 Asia/Tokyo] デバッグ：ユーザーID：
+[06-Jan-2020 18:50:19 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] Operation timed out
+[06-Jan-2020 18:50:19 Asia/Tokyo] デバッグ：特定のチェックリストシート情報：
+[06-Jan-2020 18:50:19 Asia/Tokyo] デバッグ：登録済みチェックリストシート情報：
+[06-Jan-2020 18:50:19 Asia/Tokyo] デバッグ：登録済みシートの枚数：
+[06-Jan-2020 18:50:22 Asia/Tokyo] エラーが発生しました：SQLSTATE[HY000] [2002] Operation timed out
+[06-Jan-2020 18:50:22 Asia/Tokyo] デバッグ：特定のチェックリストシート情報：
+[06-Jan-2020 18:50:22 Asia/Tokyo] デバッグ：登録済みチェックリストシート情報：
+[06-Jan-2020 18:50:22 Asia/Tokyo] デバッグ：登録済みシートの枚数：
