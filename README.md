@@ -14,10 +14,13 @@ https://ryonexta.com/iza/login.php
 
 # 開発環境・使用言語
 MAMP
+<br>
 HTML・CSS・PHP・MySQL
 
 # 制作について
 要件定義・AdobeXDによるデザインカンプの作成・コーディング・データベース設計・デプロイまで全て自身で行いました。
+<br>
+会員機能・バリデーション・DB登録などのwebサービスに欠かせない機能を実装しました。
 
 # 制作者
 [Ryo](https://github.com/Ryo-the-Dog/)<br>
